@@ -1,0 +1,170 @@
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+  --white: #ffffff;
+  --grey: #757575;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Realway', sans-serif;
+  --cursor: pointer;
+  --font-style: normal;
+  --font-weight: 400;
+  --primary-background: #2f303a;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: var(--black);
+}
+
+/*stilizare pentru header section*/
+.header-section {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 2%;
+  color: #212121;
+}
+
+.header-section span {
+  color: var(--blue);
+}
+.header-section__mail {
+  color: var(--blue);
+}
+.header-section__tel {
+  color: var(--grey);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 30.52px;
+  letter-spacing: 3%;
+  color: var(--black);
+  text-decoration: none;
+}
+.nav-links {
+  text-decoration: none;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+  line-height: 16.41px;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue);
+  text-decoration: underline;
+}
+/*stilizare pentru hero section*/
+.hero-section {
+  font-weight: 900;
+  size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/*stilizare pentru about section*/
+.about-section__title {
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 3%;
+  color: #212121;
+}
+.about-section__text {
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #757575;
+}
+/*stilizare pentru what we do section*/
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+}
+/*stilizare pentru our team section*/
+
+.our-team__name {
+  font-weight: 500;
+  size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #212121;
+}
+.our-team__text {
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #757575;
+}
+/*stilizare pentru filtru section*/
+.btn-list {
+  list-style: none;
+}
+.btn-item {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  border: none;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+/*stilizare pentru cards section*/
+.cards-section__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
+  color: var(--black);
+}
+
+.cards-section__subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 3%;
+  color: var(--grey);
+}
+/*stilizare pentru footer section*/
+.footer-section {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 3%;
+  background-color: var(--primary-background);
+  color: var(--white);
+}
+.footer-section__contacts {
+  list-style: none;
+}
+.footer-section__contact {
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 16px;
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-section__contact:hover,
+.footer-section__contact:focus {
+  color: var(--blue);
+  text-decoration: underline;
+}
+.span-logo {
+  color: var(--blue);
+}
+.logo-footer {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700px;
+  color: var(--white);
+}

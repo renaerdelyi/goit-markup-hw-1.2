@@ -4,135 +4,144 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--header section-->
-    <header>
-      <div><a href="#">WebStudio</a></div>
-      <nav>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header-section">
+      <div>
+        <a class="logo" href="#"
+          ><p><span class="span">Web</span>Studio</p></a
+        >
+      </div>
+      <nav class="header-section__nav">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="studio.html">Studio</a></li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
       <div>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-section__mail" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="header-section__tel" href="tel:++1212-772-4150"
+          >+1 212-772-4150</a
+        >
       </div>
-      <div><a href="tel:++1212-772-4150">+1212-772-4150</a></div>
     </header>
     <!--portiunea principala a paginii web-->
     <main>
-      <!--solution section-->
-      <section>
-        <h1>EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS</h1>
+      <!--hero section-->
+      <section class="hero-section">
+        <h1 class="hero-section__title">
+          EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS
+        </h1>
         <button type="button">Request our service</button>
       </section>
       <!--about section-->
-      <section>
+      <section class="about-secion">
         <div>
-          <h5>ATTENTION TO DETAILS</h5>
-          <p>
+          <h5 class="about-section__title">ATTENTION TO DETAILS</h5>
+          <p class="about-section__text">
             We go into all the details and processes of your business to develop
             a customized solution.
           </p>
         </div>
         <div>
-          <h5>PUNCTUALITY</h5>
-          <p>
+          <h5 class="about-section__title">PUNCTUALITY</h5>
+          <p class="about-section__text">
             With us, you can feel safe and secure. An important principle of the
             company: respect your time and deadlines.
           </p>
         </div>
         <div>
-          <h5>PLANNING</h5>
-          <p>
+          <h5 class="about-section__title">PLANNING</h5>
+          <p class="about-section__text">
             You will be able to observe and participate in every phase of
             solution development and implementation.
           </p>
         </div>
         <div>
-          <h5>MODERN TECHNOLOGIES></h5>
-          <p>
+          <h5 class="about-section__title">MODERN TECHNOLOGIES></h5>
+          <p class="about-section__text">
             We use innovative tools to solve assigned tasks. It's time to
             simplify work processes.
           </p>
         </div>
       </section>
       <!--what we do section-->
-      <section>
-        <h2>What we do</h2>
+      <section class="what-we-do-secion">
+        <h2 class="what-we-do-title">What we do</h2>
         <!--div cu imagini-->
         <div>
-          <img
-            src="./images/poza-1.jpg"
-            alt="images with a person in write a code on a tablet"
-            width="200"
-          />
-          <img
-            src="./images/poza-2.jpg"
-            alt="images with work at phone and laptop "
-            width="200"
-          />
-          <img
-            src="./images/poza-3.jpg"
-            alt="images select a color on tablet "
-            width="200"
-          />
+          <img src="./images/poza-1.jpg" alt="poza-1" width="200" />
+          <img src="./images/poza-2.jpg" alt="poza-2" width="200" />
+          <img src="./images/poza-3.jpg" alt="poza-3" width="200" />
         </div>
       </section>
       <!--our team section-->
-      <section>
-        <h2>Our Team</h2>
+      <section class="our-team-section">
+        <h2 class="what-we-do-title">Our Team</h2>
         <!--div cu carduri despre membrii echipei-->
         <div style="display: flex; gap: 30px">
           <!--card1-->
           <div>
             <img
               src="./images/christopherwalker.jpg"
-              alt="christopherwalker product designer"
-              width="100"
+              alt="christopherwalker"
+              width="200"
             />
-            <p>Christopher Walker</p>
-            <p>Product Designer</p>
+            <p class="our-team__name">Christopher Walker</p>
+            <p class="our-team__text">Product Designer</p>
           </div>
           <div>
-            <img
-              src="./images/kyleevans.jpg"
-              alt="kyleevans frontend developer"
-              width="100"
-            />
-            <p>Kylie Evans</p>
-            <p>Frontend Developer</p>
+            <img src="./images/kyleevans.jpg" alt="kyleevans" width="200" />
+            <p class="our-team__name">Kylie Evans</p>
+            <p class="our-team__text">Frontend Developer</p>
           </div>
           <div>
-            <img
-              src="./images/ryanheris.jpg"
-              alt="ryanheris marketing"
-              width="100"
-            />
-            <p>Ryan Harris</p>
-            <p>Marketing</p>
+            <img src="./images/ryanheris.jpg" alt="ryanheris" width="200" />
+            <p class="our-team__name">Ryan Harris</p>
+            <p class="our-team__text">Marketing</p>
           </div>
           <div>
-            <img
-              src="./images/tylermoore.jpg"
-              alt="tylermoore ui designer"
-              width="100"
-            />
-            <p>Tyler Moore</p>
-            <p>UI Designer</p>
+            <img src="./images/tylermoore.jpg" alt="tylermoore" width="200" />
+            <p class="our-team__name">Tyler Moore</p>
+            <p class="our-team__text">UI Designer</p>
           </div>
         </div>
       </section>
     </main>
     <!--footer section-->
-    <footer>
-      <div><a href="#">WebStudio</a></div>
-      <address>695 Park Ave, NY 10065, USA</address>
-      <ul>
-        <li>info@devstudio.com</li>
-        <li>+1212-772-4150</li>
+    <footer class="footer-section">
+      <div>
+        <a class="logo-footer." href="#"
+          ><p><span class="span-logo">Web</span>Studio</p></a
+        >
+      </div>
+      <address class="footer-section__adress">
+        695 Park Ave, NY 10065, USA
+      </address>
+      <ul class="footer-section__contacts">
+        <li>
+          <a class="footer-section__contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="footer-section__contact" href="tel:++1212-772-4150"
+            >+1 212-772-4150</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
