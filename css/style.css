@@ -62,12 +62,12 @@ body {
 /*stilizare pentru hero section*/
 .hero-section {
   font-weight: 900;
-  size: 44px;
+  font-size: 44px;
   line-height: 60px;
   letter-spacing: 6%;
   text-align: center;
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--white);
+  background-color: var(--grey);
 }
 
 /*stilizare pentru about section*/
@@ -75,12 +75,12 @@ body {
   font-weight: 700;
   line-height: 16.41px;
   letter-spacing: 3%;
-  color: #212121;
+  color: var(--black);
 }
 .about-section__text {
   line-height: 24px;
   letter-spacing: 3%;
-  color: #757575;
+  color: var(--grey);
 }
 /*stilizare pentru what we do section*/
 .what-we-do-title {
@@ -92,18 +92,18 @@ body {
 
 .our-team__name {
   font-weight: 500;
-  size: 16px;
+  font-size: 16px;
   line-height: 18.75px;
   letter-spacing: 3%;
   text-align: center;
-  color: #212121;
+  color: var(--black);
 }
 .our-team__text {
   font-size: 16px;
   line-height: 18.75px;
   letter-spacing: 3%;
   text-align: center;
-  color: #757575;
+  color: var(--grey);
 }
 /*stilizare pentru filtru section*/
 .btn-list {
