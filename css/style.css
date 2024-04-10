@@ -3,14 +3,15 @@
   --black: #212121;
   --white: #ffffff;
   --grey: #757575;
+  --primary-background: #2f303a;
   --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'Realway', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --cursor: pointer;
   --font-style: normal;
   --font-weight: 400;
-  --primary-background: #2f303a;
 }
 
+/* stilizare pentru body*/
 body {
   font-family: var(--primary-font);
   font-size: 14px;
@@ -22,25 +23,32 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
-  letter-spacing: 2%;
-  color: #212121;
+  color: var(--primary-background);
 }
 
 .header-section span {
   color: var(--blue);
 }
 .header-section__mail {
-  color: var(--blue);
+  color: var(--grey);
 }
 .header-section__tel {
   color: var(--grey);
 }
-
+.header-section__mail:hover,
+.header-section__mail:focus {
+  color: var(--blue);
+  text-decoration: underline;
+}
+.header-section__tel:hover,
+.header-section__tel:focus {
+  color: var(--blue);
+  text-decoration: underline;
+}
 .logo {
   font-weight: 700;
   font-size: 31px;
   line-height: 30.52px;
-  letter-spacing: 3%;
   color: var(--black);
   text-decoration: none;
 }
@@ -64,22 +72,19 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  letter-spacing: 6%;
   text-align: center;
   color: var(--white);
-  background-color: var(--grey);
+  background-color: var(--primary-background);
 }
 
 /*stilizare pentru about section*/
 .about-section__title {
   font-weight: 700;
   line-height: 16.41px;
-  letter-spacing: 3%;
   color: var(--black);
 }
 .about-section__text {
   line-height: 24px;
-  letter-spacing: 3%;
   color: var(--grey);
 }
 /*stilizare pentru what we do section*/
@@ -94,20 +99,19 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--black);
 }
 .our-team__text {
   font-size: 16px;
   line-height: 18.75px;
-  letter-spacing: 3%;
   text-align: center;
   color: var(--grey);
 }
 /*stilizare pentru filtru section*/
 .btn-list {
   list-style: none;
+  cursor: pointer;
 }
 .btn-item {
   font-family: inherit;
@@ -126,21 +130,18 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  letter-spacing: 6%;
   color: var(--black);
 }
 
 .cards-section__subtitle {
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 3%;
   color: var(--grey);
 }
 /*stilizare pentru footer section*/
 .footer-section {
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 3%;
   background-color: var(--primary-background);
   color: var(--white);
 }
@@ -165,6 +166,6 @@ body {
 .logo-footer {
   text-decoration: none;
   font-size: 26px;
-  font-weight: 700px;
+  font-weight: 700;
   color: var(--white);
 }
